@@ -2,9 +2,11 @@ import React from "react";
 
 const NavBar = () => {
     return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
     <div className="container-fluid">
-        <a className="navbar-brand" href="#">Navbar</a>
+        <a className="navbar-brand" href="#">
+            <img src="https://res.cloudinary.com/dtfp8liuv/image/upload/v1708362011/401790577_2327917437408629_5332150171377944887_n-removebg-preview_zpssfd.png" alt="" width="50" height="60"></img>
+        </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
         </button>
